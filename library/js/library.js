@@ -62,7 +62,7 @@ async function renderIndex() {
         // -----------------------------
 
 
-        const data = await fetchJSON('/library/data/posts.json');
+        const data = await fetchJSON('library/data/posts.json');
         const container = qs('#posts-list');
         const search = qs('#search');
 
