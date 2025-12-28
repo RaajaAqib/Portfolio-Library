@@ -952,6 +952,7 @@ body {
 .library-container p {
     font-size: 16px;
     margin: 14px 0;
+    
 }
 
 /* Search */
@@ -1303,7 +1304,7 @@ body.dark h3 {
 
 /* Links */
 body.dark a {
-    color: #60a5fa;
+    color: #ffffff;
 }
 
 /* Search */
@@ -1606,5 +1607,99 @@ body.dark .theme-toggle {
 }
 
 
+
+
+/* =========================
+   LIBRARY SECTION — THEME AWARE
+   (index.html only)
+========================= */
+
+.library .library-heading h1,
+.library .library-heading h2 {
+    color: var(--skin-color);
+}
+
+.library p,
+.library .post-meta,
+.library li {
+    color: var(--text-black-700);
+}
+
+.library a {
+    color: var(--skin-color);
+}
+
+.library a:hover {
+    opacity: 0.85;
+}
+
+.library .library-item-inner {
+    border-color: var(--bg-black-50);
+}
+
+/* =========================
+   CATEGORY FILTERS — THEME AWARE
+   (index.html library section)
+========================= */
+
+.category-filters button {
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    color: var(--text-black-900);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.category-filters button:hover {
+    border-color: var(--skin-color);
+    color: var(--skin-color);
+}
+
+.category-filters button.active {
+    background: var(--skin-color);
+    color: #ffffff;
+    border-color: var(--skin-color);
+}
+
+
+/* =========================
+   LIBRARY SECTION — POST HEADINGS THEME FIX
+   (index.html)
+========================= */
+
+.library .post-item h3,
+.library .post-item h3 a,
+.library .library-item h3 {
+    color: var(--skin-color);
+}
+
+.library .post-item h3 a:hover {
+    opacity: 0.85;
+}
+
+
+/* =========================
+   CATEGORY FILTERS — DARK MODE FIX
+========================= */
+
+body.dark .category-filters button {
+    background: #020617;
+    color: #e5e7eb;
+    border-color: #334155;
+}
+
+body.dark .category-filters button:hover {
+    color: var(--skin-color);
+    border-color: var(--skin-color);
+}
+
+body.dark .category-filters button.active {
+    background: var(--skin-color);
+    color: #ffffff; /* force white */
+    border-color: var(--skin-color);
+}
 
 
