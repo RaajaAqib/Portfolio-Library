@@ -95,7 +95,7 @@ async function renderIndex() {
     const h3 = document.createElement('h3');
     const link = document.createElement('a');
 
-    link.href = `library/post.html?post=${post.slug}`;
+    link.href = `post.html?post=${post.slug}`;
     link.className = 'post-link';
     link.dataset.category = activeCategory;
     link.textContent = post.title;
