@@ -198,11 +198,6 @@ discard the changes from the top of the stash stack
 //@Example commands for 1 file changes
 
 @RaajaAqib ➜ /workspaces/Portfolio-Library (main) $ git status
-
-
-
-@RaajaAqib →/workspaces/Portfolio-Library (main) $ git status
-
 On branch main
 
 Your branch is up to date with 'origin/main'.
@@ -213,7 +208,7 @@ Changes not staged for commit:
 
 (use "git restore <file>..." to discard changes in working directory)
 
-modified: README.md
+      modified: README.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
