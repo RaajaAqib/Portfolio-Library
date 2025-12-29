@@ -191,6 +191,64 @@ write working from the top of the stash stack
 discard the changes from the top of the stash stack
 
 
+## Commands Example
+
+```javascript
+
+//@Example commands for 1 file changes
+
+@RaajaAqib ➜ /workspaces/Portfolio-Library (main) $ git status
+
+
+
+@RaajaAqib →/workspaces/Portfolio-Library (main) $ git status
+
+On branch main
+
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+
+(use "git add <file>..." to update what will be committed)
+
+(use "git restore <file>..." to discard changes in working directory)
+
+modified: README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+@RaajaAqib/workspaces/Portfolio-Library (main) $ git add README.md
+
+@RaajaAqib →/workspaces/Portfolio-Library (main) $ git commit -m "testing readme.md"
+
+[main 32b087d] testing readme.md
+
+1 file changed, 2 insertions(+)
+
+@RaajaAqib/workspaces/Portfolio-Library (main) $ git pull --rebase
+
+Successfully rebased and updated refs/heads/main.
+
+@RaajaAqib →/workspaces/Portfolio-Library (main) $ git push
+
+Enumerating objects: 5, done.
+
+Counting objects: 100% (5/5), done.
+
+Delta compression using up to 2 threads
+
+Compressing objects: 100% (3/3), done.
+
+Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+
+Total 3 (delta 2), reused 0 (delta 0), pack-reused (from 0)
+
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+
+To https://github.com/RaajaAqib/Portfolio-Library
+
+```
+
 :::note
 You can use Flow Designer for orchestration logic.
 :::
