@@ -1,12 +1,12 @@
-# GIT CHEAT SHEET
+# GIT Cheat Sheet
 Git is the free and open source distributed version control system that's responsible for everything GitHub-related that happens locally on your computer. This cheat sheet features the most important and commonly
 used Git commands for easy reference.
 
-## INSTALLATION & GUIS
+## Installation & GUIS
 With platform-specific installers for Git, GitHub also provides the ease of staying up-to-date with the latest releases of the command line
 tool while providing a graphical user interface for day-to-day interaction, review, and repository synchronization.
 
-## SETUP
+## Setup
 Configuring user information used across all local repositories
 
 **git config --global user.name “[firstname lastname]”**
@@ -22,7 +22,7 @@ Set an email address that will be associated with each history marker
  
  Set automatic command line coloring for Git for easy reviewing
 
-## SETUP & INIT
+## Setup & Init
 Configuring user information, initializing, and cloning repositories
 
 **git init**
@@ -34,7 +34,7 @@ initialize an existing directory as a Git repository
 
 retrieve an entire repository from a hosted location via URL
 
-## STAGE & SNAPSHOT
+## Stage & Snapshot
 Working with snapshots and the Git staging area
 
 **git status**
@@ -62,7 +62,7 @@ diff of what is staged but not yet committed
 
 Commit your staged content as a new commit snapshot
 
-## BRANCH & MERGE
+## Branch & Merge
 Isolating work in branches, changing context, and integrating changes
 
 **git branch**
@@ -86,7 +86,7 @@ merge the specified branch’s history into the current one
 show all commits in the current branch’s history
 
 
-## INSPECT & COMPARE
+## Inspect & Compare
 Examining logs, diffs and object information
 
 **git log**
@@ -109,7 +109,7 @@ show the diff of what is in branchA that is not in branchB
 
 show any object in Git in human-readable format
 
-## TRACKING PATH CHANGES
+## Tracking Path Changes
 Versioning file removes and path changes
 
 **git rm [file]**
@@ -124,7 +124,7 @@ change an existing file path and stage the move
 
 show all commit logs with indication of any paths that moved
 
-## IGNORING PATTERNS
+## Ignoring Patterns
 Preventing unintentional staging or committing of files.
 
 **logs/*.notespattern*/**
@@ -136,7 +136,7 @@ Save a file with desired patterns as .gitignore with either direct string matche
 system-wide ignore pattern for all local repositories
 
 
-## SHARE & UPDATE
+## Share & Update
 Retrieving updates from another repository and updating local repos
 
 **git remote add [alias] [url]**
@@ -159,7 +159,7 @@ Transmit local branch commits to the remote repository branch
 
 fetch and merge any commits from the tracking remote branch
 
-## REWRITE HISTORY
+## Rewrite History
 Rewriting branches, updating commits, and clearing history
 
 **git rebase [branch]**
@@ -171,7 +171,7 @@ Apply any commits of the current branch ahead of the specified one
 clear staging area, rewrite working tree from specified commit
 
 
-## TEMPORARY COMMITS
+## Temporary Commits
 Temporarily store modified, tracked files in order to change branches
 
 **git stash**
