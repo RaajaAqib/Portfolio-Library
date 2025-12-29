@@ -101,9 +101,4 @@ Always log execution paths during debugging in Vancouver.
 
 
 
-<figure class="doc-image">
-  <img src="./Pictures/flow-designer/Aqib.png"
-       alt="Approval step configuration in Flow Designer"
-       loading="lazy">
-  <figcaption>Approval step configuration in Flow Designer</figcaption>
-</figure>
+
